@@ -5,15 +5,7 @@
 ## Executive summary
 Analyzed machine restock totals, stale units, and daily restock patterns. In the report’s selected product view (Candies, Doritos, Lays), School Snacks shows the highest restock totals and the highest stale-unit totals, suggesting replenishment should be balanced with staleness review.
 
-![Inventory restock dashboard](assets/dashboard-overview.png)
-
-## Selected report visuals
-
-![Restock and stale-unit comparison](assets/restock-and-stale-units.png)
-
-![Restock totals by machine](assets/restock-by-machine.png)
-
-![Daily restock trend](assets/restock-trend.png)
+![Inventory Restock dashboard from Tableau Public](assets/dashboard-overview.png)
 
 ## Business question and pipeline
 How can restock and stale-unit patterns help operations focus replenishment attention across machines, locations, products, and time?
@@ -46,6 +38,14 @@ No predictive or statistical model is reported; this is a descriptive dashboard.
 - Machine IDs 12 and 14 fall below the adjustable 7,000-unit cutoff, while the other displayed machines exceed it.
 - January’s visible daily counts are more stable than December’s; the report’s trend prose calls the measure cost, but the Tableau axis is restock unit count.
 
+## Selected report visuals
+
+![Restock and stale units by machine/category](assets/restock-and-stale-units.png)
+
+![Restock totals by machine](assets/restock-by-machine.png)
+
+![Daily restock trend](assets/restock-trend.png)
+
 ## Recommendations
 1. Review School Snacks replenishment cadence, product shelf life, and demand so high restock is balanced against stale stock.
 2. Investigate IDs 12 and 14 against machine capacity, demand, and service history before changing their restock levels.
@@ -67,5 +67,4 @@ The report supports the dashboard scope and operational questions, but not a for
 - [Functional requirements summary](docs/FRD-Summary.md)
 
 The source reports do not document an existing-state (As-Is) process; none is presented as fact.
-
 
