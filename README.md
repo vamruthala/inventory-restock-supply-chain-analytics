@@ -7,6 +7,14 @@ Analyzed machine restock totals, stale units, and daily restock patterns. In the
 
 ![Inventory restock dashboard](assets/dashboard-overview.png)
 
+## Selected report visuals
+
+![Restock and stale-unit comparison](assets/restock-and-stale-units.png)
+
+![Restock totals by machine](assets/restock-by-machine.png)
+
+![Daily restock trend](assets/restock-trend.png)
+
 ## Business question and pipeline
 How can restock and stale-unit patterns help operations focus replenishment attention across machines, locations, products, and time?
 
