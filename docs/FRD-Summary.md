@@ -1,8 +1,6 @@
 # Functional Requirements Summary
 
-*Report-based summary of dashboard behavior.*
-
-- Show restock totals by machine with a restock-cutoff control and High/Low coloring.
-- Compare restock and stale units by location, machine category, and product; allow product filtering.
-- Show daily restock trend with the report’s trend line and confidence bands.
-- Label the threshold in validated units; dashboard is descriptive, not a forecast.
+- I show restock totals by machine with a cutoff control and High/Low coloring.
+- I compare restock and stale units by location, machine category, and product, with product filtering.
+- I show daily restock trends over the displayed period.
+- I label the threshold in restock units and use descriptive comparisons for planning.
